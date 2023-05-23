@@ -1,0 +1,70 @@
+body {
+    background-image: url(background2.jpeg);
+    background-size: cover;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1em;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+img.self_img {
+    width: 350px;
+    height: 450px; 
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px black;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+}
+
+table.link_tb {
+    border-spacing: 1rem;
+    font-size: 1.4rem;
+}
+
+table.about_tb {
+    border-spacing: 5px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px black;
+}
+
+table.about_tb th{
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+table.about_tb td {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+table.contact_tb {
+    border-spacing: 1px;
+    text-align: right;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+table.contact_tb th {
+    padding: 5px;
+}
